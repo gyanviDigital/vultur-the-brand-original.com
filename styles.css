@@ -13,6 +13,7 @@ html, body{
     height: 100vh;
 }
 .main-box{
+   
     background-image: linear-gradient(to right, var(--color1),var(--color1),var(--color1), var(--color2));
     padding:20px 10px;
 }
@@ -59,6 +60,7 @@ html, body{
 }
 /*footer box*/
 .footer-box{
+    height: auto;
     background-color: var(--color1);
     box-shadow: 1px 0px 10px .3px var(--color3);
     padding: 10px;
@@ -82,3 +84,51 @@ transform: scale(.8);
  .name{
         text-align: center;
     }
+
+
+
+
+    @media (max-width:800px) {
+       .h1{
+        font-size:larger;
+       }
+       .h2{
+font-size: large;
+       }
+       .h3{
+       font-size: medium;
+       }
+       .h4{
+font-size: small;
+       }
+       .logo{
+        width: 100px;
+        height: 100px;
+       }
+.main-box{
+    height: 95vh;
+}
+    }
+    /*for laptop screen*/
+    @media (min-width:800px) {
+        .h1{
+         font-size:xx-large;
+        }
+        .name{
+              font-size: 40px;
+        }
+        .h2{
+ font-size:x-large;
+        }
+        .h3{
+        font-size:large;
+        }
+        .h4{
+ font-size: small;
+        }
+        .logo{
+         width:160px;
+         height:160px;
+        }
+ 
+     }
